@@ -1,7 +1,7 @@
 
 <template>
   <div id="main">
-    <md-app md-mode="reveal" style="height: 100vh">
+    <md-app md-mode="fixed" style="height: 100vh">
     <!-- <md-app md-mode="reveal" style="min-height: 100vh"> -->
       <md-app-toolbar class="md-primary">
         <md-button class="md-icon-button" @click="menuVisible = !menuVisible">
@@ -251,6 +251,11 @@ export default {
         // }
         // this.$data.showDialog = false;
         // const urlsearchParams = new URLSearchParams(searchQuery);
+        if(form.startDate.getTime()>form.endDate.getTime()) {
+          const temp = form.startDate;
+          form.startDate = form.endDate;
+          form.endDate =  temp;
+        }
         const searchQuery = new SearchQuery({
           broadcaster_id: [form.channel.id],
           start: form.startDate,

@@ -33,7 +33,7 @@
         <md-tooltip md-direction="bottom">북마크에 클립을 추가</md-tooltip>
       </md-button>
       <md-button v-if="IsFavorite" @click="removeFavorite">
-        <md-icon>bookmark</md-icon>
+        <md-icon>bookmark_add</md-icon>
         <md-tooltip md-direction="bottom">북마크에서 클립을 제거</md-tooltip>
       </md-button>
       <md-button v-if="IsRecentlyPage" @click="removeRecently">
@@ -106,6 +106,39 @@ export default {
 </script>
 
 <style scoped>
+.md-card {
+  display: inline-block;
+  
+}
+@media (max-width:3840px) {
+  .md-card {
+    width: calc(25% - 40px);
+  }
+}
+@media (max-width:1920px) {
+  .md-card {
+    width: calc(33% - 40px);
+  }
+}
+
+@media (max-width:1280px) {
+  .md-card {
+    width: calc(50% - 40px);
+  }
+}
+
+@media (max-width:780px) {
+  .md-card {
+    width: calc(100% - 40px);
+  }
+}
+
+
+
+
+
+
+
 .date {
     float: right;
 }

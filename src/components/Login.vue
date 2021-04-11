@@ -74,6 +74,7 @@ p {
   color: #ffffff;
   margin-right: 20px;
   margin-left: 20px;
+  line-height: 55px;
 }
 
 .login-button {

@@ -17,6 +17,7 @@ export default {
 <style scoped>
 #app {
   height: 100vh;
+  word-break: keep-all;
 }
 /* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
