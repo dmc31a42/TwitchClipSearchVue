@@ -8,8 +8,22 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "js-priority-queue": "^0.1.5",
+    "moment-range": "^4.0.2",
+    "observable-array": "^0.0.4",
+    "rxjs": "^6.6.7",
+    "v-md-date-range-picker": "^2.6.0",
+    "vue": "^2.6.11",
+    "vue-clipboard2": "^0.3.1",
+    "vue-cookies": "^1.7.4",
+    "vue-material": "^1.0.0-beta-15",
+    "vue-moment": "^4.1.0",
+    "vue-router": "^3.5.1",
+    "vue-rx": "^6.2.0",
+    "vue-svg-loader": "^0.16.0",
+    "vuelidate": "^0.7.6"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
