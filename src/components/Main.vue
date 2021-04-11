@@ -275,7 +275,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 md-app {
   height: 100vh;
   /* min-height: 100vh; */

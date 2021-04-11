@@ -8,11 +8,11 @@ export default {
   name:"LogOut",
   created() {
     TwitchApiService.Logout();
-    this.$router.push("/");
+    this.$router.push("/login");
   },
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>

@@ -14,7 +14,10 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+#app {
+  height: 100vh;
+}
 /* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
