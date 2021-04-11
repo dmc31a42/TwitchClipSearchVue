@@ -1,6 +1,6 @@
 
 <template>
-  <div id="app">
+  <div id="main">
     <md-app md-mode="reveal" style="height: 100vh">
     <!-- <md-app md-mode="reveal" style="min-height: 100vh"> -->
       <md-app-toolbar class="md-primary">
@@ -283,9 +283,7 @@ md-app {
 #search-content {
   padding: 0px 12px;
 }
-.md-menu-content {
-  z-index: 20;
-}
+
 .md-dialog-container:not(.md-dialog-fullscreen) {
   width: 80%;
 }
@@ -303,5 +301,11 @@ md-app {
 .md-datepicker {
   width: 50%;
   display: inline-flex;
+}
+</style>
+
+<style >
+.md-menu-content {
+  z-index: 20;
 }
 </style>
